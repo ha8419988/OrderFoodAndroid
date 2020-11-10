@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/favorite_solid"
+            android:id="@+id/nav_favorite"
+            android:iconTint="#FDFDFD"
+            android:title="Danh Sách Yêu Thích " />
+        <item
+            android:icon="@drawable/shopping_cart1_24"
+            android:iconTint="#FDFDFD"
+            android:id="@+id/nav_cart"
+            android:title="Giỏ Hàng" />
+        <item
+            android:icon="@drawable/nav_order"
+            android:iconTint="#FDFDFD"
+            android:id="@+id/nav_order"
+            android:title="Đơn Đã Đặt" />
+        <item
+            android:icon="@drawable/log_out"
+            android:iconTint="#FDFDFD"
+            android:id="@+id/nav_log_out"
+            android:title="Đăng Xuất" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_baseline_share_24"-->
+<!--                android:title="Share" />-->
+<!--            <item-->
+<!--                android:icon="@drawable/ic_baseline_send_24"-->
+<!--                android:title="Send"-->
+<!--                android:id="@+id/nav_send"/>-->
+        </menu>
+    </item>
+</menu>

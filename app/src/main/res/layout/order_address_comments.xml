@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/b3"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#DD33691E"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Địa Chỉ"
+                android:inputType="text"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="34sp" />
+            <!--            <fragment-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:id="@+id/place_autocomplete_fragment"-->
+            <!--                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+            <!--                tools:ignore="MissingClass" />-->
+
+            <!--            <EditText-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:id="@+id/edt_comment"-->
+            <!--                android:hint="Bình Luận"-->
+            <!--                android:textColorHint="@color/colorPrimary"-->
+            <!--                android:textSize="34sp"-->
+            <!--                android:inputType="text"-->
+            <!--                android:layout_marginTop="20dp"/>-->
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_shiptothisAddress"
+        android:text="Ship đến đây"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_shiptohomeAddress"
+        android:text="Ship đến Địa chỉ khác"/>
+
+</RadioGroup>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
